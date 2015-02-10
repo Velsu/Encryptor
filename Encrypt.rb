@@ -1,4 +1,4 @@
-#playing with GIT yea
+#playing with GIT yea a teraz?
 
 class Encryptor
 
