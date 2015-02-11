@@ -1,10 +1,11 @@
-#playing with GIT yea a teraz?
+#Project complete
 
 class Encryptor
 
 	def initialize
 	end
 
+#Creates a cipher for ROT system
 	def cipher(rotation)
 	ary = (' '..'z').to_a
 	srary = (' '..'z').to_a.rotate(rotation)
@@ -52,7 +53,3 @@ class Encryptor
 		out.close
 	end
 end
-
-test = Encryptor.new
-
-test.crack("Dpohsbuvmbujpot\"")
